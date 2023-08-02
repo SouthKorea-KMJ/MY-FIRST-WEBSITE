@@ -4,11 +4,19 @@
     <head><!--본문보조-->
         <title>WEB1_HTML</title>
         <meta charset="utf-8"> <!--이파일을 utf파일로 열어라-->
-
+        <link rel="shortcut icon" type="image/x-icon"
+        href="window.jpg">
+        <link rel="stylesheet" href="style.css">
+    </head>    
+<!--tag{}: 선택자(selector)»»» CSSstyle을 어떤 태그에 적용할지
+    color:red;etc...: 선언,효과(declaration) 
+    color etc..: 속성(property)
+    red; etc..: 속성값(value)-->
     <body><!--이제부터 본문이라는 걸 명시-->
         <h1><a href="index.html" target="_blank">WEB!!</a></h1>
+        <div id="grid">
         <ol>
-            <li><a href="1.html" target="_blank">HTML</a></li>
+            <li><a href="1.html" target="_blank" id="html">HTML</a></li>
             <li><a href="2.html" target="_blank">CSS</a></li>
             <li><a href="3.html" target="_blank">JavaScript</a></li>
         </ol>
@@ -19,7 +27,7 @@
       ol태그는 ordered list의 "
       >>>>>> ul태그는 순서가 없고, ol태그는 숫자로 순서가 있다.
 -->
-                                                                                                 
+<div id="article">                                                                                           
     <h2>HTML</h2>
     <p>
         <iframe width="360" height="270" style="border-radius: 10%;" src="https://www.youtube.com/embed/ok-plXXHlWw" title="YouTube video player"
@@ -38,7 +46,8 @@
         It provides a means to create structured documents by denoting structural semantics for text
         such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delinated by tags,
         written using angle brackets.</p>
-
+    </div>    
+</div>    
         <p>  
                <!--Start of Tawk.to Script-->
     <script type="text/javascript">

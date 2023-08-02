@@ -4,27 +4,40 @@
     <head><!--본문보조-->
         <title>WEB1 - Welcome!</title>
         <meta charset="utf-8"> <!--이파일을 utf파일로 열어라-->
-    </head>
+        <link rel="shortcut icon" type="image/x-icon"
+        href="window.jpg">
+        <link rel="stylesheet" href="style.css">
+    </head><!--<style></style> : html의 태그인 동시,
+           이 태그내의 내용은 css의 문법으로 해석해라-->
 
     <body><!--이제부터 본문이라는 걸 명시-->
-        <h1><a href="index.html" target="_blank">WEB!!</a></h1>
+        <h1><a href="index.html" target="_blank" id="WEB">WEB!!</a></h1>
+        <div id="grid">
         <ol>
             <li><a href="1.html" target="_blank">HTML</a></li>
             <li><a href="2.html" target="_blank">CSS</a></li>
             <li><a href="3.html" target="_blank">JavaScript</a></li>
         </ol>
 <!--
+ <h1><a href="index.html" target="_blank"><font color="red">WEB!!</font></a></h1>
+        <ol>
+            <li><a href="1.html" target="_blank"><font color="red">HTML</font></a></li>
+            <li><a href="2.html" target="_blank"><font color="red">CSS</font></a></li>
+            <li><a href="3.html" target="_blank"><font color="red">JavaScript</font></a></li>
+        </ol> : <font></font>태그중복 «««« CSS
+
 <ul>
     "
 </ul> ul태그는 unordered list의 abbreviation
       ol태그는 ordered list의 "
       >>>>>> ul태그는 순서가 없고, ol태그는 숫자로 순서가 있다.
 -->
+<div id="article">
     <h2>WEB</h2>
     <p>
-        <iframe width="360" height="270" style="border-radius: 10%;" src="https://www.youtube.com/embed/ok-plXXHlWw" title="YouTube video player"
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;
-        web-share" allowfullscreen></iframe>
+        <iframe width="360" height="270" style="border-radius: 10%;" src="https://www.youtube.com/embed/J8hzJxb0rpc"
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+        encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </p>
             <p style="margin-bottom: 22px;"><mark style="background-color:rgb(221, 255, 0); color:black;">The World Wide Web(www)</mark>, commonly known as the <strong>WEB</strong>    
             is an information system enabling information to be 
@@ -34,6 +47,8 @@
            over the Internet according to specific rules, the Hypertext 
            Transfer Protocol (HTTP).</p>
            <img src="WWW.jpg" width="100%" style="border-radius: 10%;">
+           </div>
+        </div>
            <p>
                       <!--Start of Tawk.to Script-->
 <script type="text/javascript">
